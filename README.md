@@ -2,9 +2,9 @@
 
 generates single record MARC files
 
-takes a given binary MARC records file (containing multiple MARC records) and splits it into single binary MARC records files, whereby the file name will be constructed with following pattern:
+takes a given binary MARC records file (containing multiple MARC records) and splits it into single binary MARC records files, whereby the file names will be constructed with following pattern:
 
-    [ID].marc
+    [ID].mrc
 
 whereby ID will be constructed of:
 
