@@ -14,11 +14,11 @@ pymarc
 
 2. (optionally) install pip for python 3.x:
 
-   sudo easy_install3 pip
+    sudo easy_install3 pip
 
 3. install pymarc with pip (e.g. pip3.5):
 
-   sudo -H pip3.5 install pymarc 
+    sudo -H pip3.5 install pymarc 
 
 ## usage
 
