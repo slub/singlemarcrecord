@@ -2,6 +2,14 @@
 
 generates single record MARC files
 
+takes a given binary MARC records file (containing multiple MARC records) and splits it into single binary MARC records files, whereby the file name will be constructed with following pattern:
+
+    [ID].marc
+
+whereby ID will be constructed of:
+
+    [PREFIX]-[SOURCE ID]-[MARC RECORD ID FROM 001]
+
 ## requirements
 
 pymarc
@@ -33,3 +41,7 @@ optional arguments:
     -source_id SOURCE_ID  set source id for id generation
     -input_file INPUT_FILE the input MARC file
     -output_folder OUTPUT_FOLDER the output folder for the single record MARC files
+
+### usage example
+
+    ./singlemarcrecord.py -prefix [PREFIX] -source_id [SOURCE ID] -input_file [INPUT BINARY MARC FILE] -output_folder [OUTPUT FOLDER FOR SINGLE MARC RECORD FILES]
