@@ -12,21 +12,18 @@ whereby ID will be constructed of:
 
 ## requirements
 
-pymarc
+[argparse](https://docs.python.org/3/library/argparse.html#module-argparse)
+[pymarc](https://github.com/edsu/pymarc)
 
-### install pymarc
+### install requirements
 
-1. (optionally) install easy_install3:
+1. (optionally) install [pip](https://pip.pypa.io/) for Python 3.x:
 
-    sudo apt-get install python3-setuptools
+    sudo apt-get install python3-pip
 
-2. (optionally) install pip for python 3.x:
+2. install requirements with pip:
 
-    sudo easy_install3 pip
-
-3. install pymarc with pip (e.g. pip3.5):
-
-    sudo -H pip3.5 install pymarc 
+    sudo -H pip3 install -r requirements.txt 
 
 ## usage
 
