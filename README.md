@@ -12,8 +12,8 @@ whereby ID will be constructed of:
 
 ## requirements
 
-[argparse](https://docs.python.org/3/library/argparse.html#module-argparse)
-[pymarc](https://github.com/edsu/pymarc)
+* [argparse](https://docs.python.org/3/library/argparse.html#module-argparse)
+* [pymarc](https://github.com/edsu/pymarc)
 
 ### install requirements
 
